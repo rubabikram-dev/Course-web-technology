@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headnav{
+    position: relative;
+    background-color: rgb(32, 32, 95);
+    color: white;
+}
+
+.navbar{
+position: absolute;
+top: 15px;
+right: 20px;
+
+}
+.navbar a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+
+.heading{
+    text-align: center;
+    border-bottom: 2px solid rgb(172, 117, 16);
+    width: 200px;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.div-container{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+    text-align: center;
+}
+
+button{
+color: white;
+    margin: 10px;
+    height: 25px;
+}
+
+.one{
+    background-color: rgb(175, 175, 226);
+    width: 400px;
+    height: auto;
+}
+
+.one button{
+    background-color:rgb(58, 58, 218) ;
+}
+
+.two{
+    background-color: rgb(158, 223, 158);
+    
+}
+
+.two button{
+    background-color: rgb(43, 224, 43);
+}
+.three{
+    background-color: rgb(192, 139, 185);
+    width: 400px;
+    height: auto;
+}
+
+.three button{
+    background-color: rgb(189, 62, 172);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(182, 175, 175);
+}
+
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+    p {
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .div-container{
+        display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 6px;
+    gap: 20px;
+}
+
+.one, .two , .three{
+    flex: 1;
+    width: auto;
+}
+
+.navbar{
+top: 10px;
+right: 10px;
+}
+
+.navbar a{
+    padding: 5px;
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width:600px) {
+
+.headnav{
+    height: 25px;
+}
+    .main-heading{
+font-size: 15px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .div-container{
+        display: flex;
+        flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    gap: 15px;
+}
+
+.one,.two, .three{
+    width: 100%;
+}
+
+.navbar {
+        top: 5px;
+        right: 10px;
+    }
+
+.navbar a{
+    padding: 3px;
+    font-size: 12px;
+}
+
+}
+

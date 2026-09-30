@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(227, 233, 240);
+    
+}
+
+.container{
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px rgb(214, 148, 148);
+    height: auto;
+    width: 400px;
+    text-align: center;
+    margin:190px auto;
+    padding: 20px;
+    background-color: rgb(196, 148, 156);
+    color: rgb(77, 35, 35);
+    border: 2px solid white;
+    position: relative;
+}
+
+li{
+    display: inline;
+}
+
+.new{
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(243, 231, 231);
+    color: rgb(199, 55, 55);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(204, 64, 106);
+    width: 100px;
+    height: 30px;
+    position:fixed ;
+    right: 15px;
+    bottom: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(226, 164, 164);
+}
+
+ @media screen and (max-width: 600px) {
+    .container{
+    height: 300px;
+    width: 300px;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.new{
+    font-size: 20px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 30px;
+}
+ }
+
